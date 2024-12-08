@@ -4,15 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-        
-        
-        
         {
             "type": "java",
-            "name": "Current File",
+            "name": "LaborantApplication",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "com.example.Laborant.LaborantApplication",
+            "projectName": "rentACar"
         },
         {
             "type": "java",
@@ -23,10 +20,9 @@
         },
         {
             "type": "java",
-            "name": "LaborantApplicationTests",
+            "name": "Current File",
             "request": "launch",
-            "mainClass": "com.example.Laborant.LaborantApplicationTests.java",
-            "projectName": "Laborant"
+            "mainClass": "${file}"
         }
     ]
 }

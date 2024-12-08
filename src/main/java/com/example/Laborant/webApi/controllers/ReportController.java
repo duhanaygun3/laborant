@@ -37,7 +37,7 @@ public class ReportController {
         reportService.add(createReportRequest);
     }
 
-    @GetMapping
+    @GetMapping("/getall")
     public List<GetAllReportsResponse> getAll() {
         return reportService.getAllReports();
     }
